@@ -44,7 +44,7 @@ def checker():
         menu()
 
     else:
-        print(Fore.CYAN + "Discord Vanity Is Taken")
+        print(Fore.RED + "Discord Vanity Is Taken")
         time.sleep(2)
         os.system('cls')
         menu()
@@ -62,7 +62,7 @@ def checkers():
             print(Fore.GREEN + f'{url} Is Not Taken')
             time.sleep(1)
         else:
-            print(Fore.CYAN + f'{url} Is Taken')
+            print(Fore.RED + f'{url} Is Taken')
             time.sleep(1)
            
 
