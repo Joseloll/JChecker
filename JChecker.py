@@ -1,8 +1,8 @@
 import time
+import requests
 import os
 import colorama
 from colorama import Fore
-import requests
 os.system(f'cls & mode 85,20 & title JSpammer!')
 
 def main():
@@ -56,13 +56,13 @@ def checkers():
     print(Fore.YELLOW + "This Checks Multi Vanity At One Time")
     name = input(Fore.LIGHTRED_EX + "Enter The Name Of The Txt File:")
     file = open(name, "r").read().split('\n')
-    for check in file:
-        r = requests.get(f'https://discord.com/api/v9/invites/{check}')
+    for url in file:
+        r = requests.get(f'https://discord.com/api/v9/invites/{url}')
         if r.status_code == 404:
-            print(Fore.GREEN + f'{check} Is Valid')
+            print(Fore.GREEN + f'{url} Is Valid')
             time.sleep(1)
         else:
-            print(Fore.RED + f'{check} Is Invalid')
+            print(Fore.RED + f'{url} Is Invalid')
             time.sleep(1)
            
 
