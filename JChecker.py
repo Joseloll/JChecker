@@ -1,8 +1,8 @@
 import time
-import requests
 import os
 import colorama
 from colorama import Fore
+import requests
 os.system(f'cls & mode 85,20 & title JSpammer!')
 
 def main():
@@ -44,7 +44,7 @@ def checker():
         menu()
 
     else:
-        print(Fore.RED + "Discord Vanity Is Taken")
+        print(Fore.CYAN + "Discord Vanity Is Taken")
         time.sleep(2)
         os.system('cls')
         menu()
@@ -59,10 +59,10 @@ def checkers():
     for url in file:
         r = requests.get(f'https://discord.com/api/v9/invites/{url}')
         if r.status_code == 404:
-            print(Fore.GREEN + f'{url} Is Valid')
+            print(Fore.GREEN + f'{url} Is Not Taken')
             time.sleep(1)
         else:
-            print(Fore.RED + f'{url} Is Invalid')
+            print(Fore.CYAN + f'{url} Is Taken')
             time.sleep(1)
            
 
