@@ -1,5 +1,5 @@
 # JChecker
-![image](https://user-images.githubusercontent.com/106576578/182470088-3388d726-2f37-4ba9-91b6-34944a7fc746.png)
+![image](https://user-images.githubusercontent.com/106576578/182509912-1bcda1a9-065b-47f6-8541-bd54de3203ed.png)
 
 # About:
 This Is A Discord Tool  That Checks Discord Vanitys Urls To See If There Valid Or Not
