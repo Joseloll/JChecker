@@ -1,2 +1,3 @@
 pip install colorama
-pip install request
+pip install pynput
+pip install keyboard
