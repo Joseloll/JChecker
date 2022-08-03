@@ -3,7 +3,7 @@ import os
 import colorama
 from colorama import Fore
 import requests
-os.system(f'cls & mode 85,20 & title JSpammer!')
+os.system(f'cls & mode 85,20 & title JChecker!')
 
 def main():
     menu()
