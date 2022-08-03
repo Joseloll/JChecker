@@ -17,8 +17,8 @@ def menu():
             / /_/ / /___/ / / /  __/ /__/ ,< /  __/ /    
             \____/\____/_/ /_/\___/\___/_/|_|\___/_/                                                                                                                 
                 Made By Jose#0001                             
-                [1]  Discord Vanity Checker
-                [2]  Multi Vanity Checker 
+                [1]  Single Discord Vanity Checker
+                [2]  Multi  Discord Vanity Checker 
                 Enter Your Choice ↓
                 """)
     if choice == "1":
